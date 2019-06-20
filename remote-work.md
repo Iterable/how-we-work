@@ -29,6 +29,10 @@ We have all proper integrations in place to start a meeting with as little frict
 
 We want to make sure that our people know each other not only by their Slack username, so we every remote employee tries to visit the office for a week every few months and spend time with coworkers inside and outside their team.
 
+### Flexibility with time zones
+
+With people all over the country, there inevitably are time zone differences. We put a lot of effort to accomodate everyone's schedule - between San Francisco and New York, for example, it means that we never schedule regular meetings outside of both timezones' working hours.
+
 ## Who can be remote?
 
 ### Work from home
