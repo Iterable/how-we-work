@@ -6,4 +6,4 @@ We run our production environment on AWS, with a bit of [redislabs](https://redi
 
 We move a lot of data around in messaging systems. Today that is largely RabbitMQ and Kafka, but we are experimenting with [Apache Pulsar](https://pulsar.apache.org/) which we hope will replace both of these systems. Pulsar promises better performance and uptime than RabbitMQ, while allowing many more independent data streams than Kafka.
 
-On the Frontend, our engineers work primarily in Javascript(ES6+) with [ReactJS](https://reactjs.org/) and [redux-saga](https://redux-saga.js.org/). We transpile our javascript using (babel)[https://github.com/babel/babel], and we use (webpack)[https://webpack.github.io/] to bundle our assets. For styling, we use (postcss)[https://postcss.org/] to preprocess our styles.
+On the Frontend, our engineers work primarily in Javascript(ES6+) with [ReactJS](https://reactjs.org/) and [redux-saga](https://redux-saga.js.org/). We transpile our javascript using [babel](https://github.com/babel/babel), and we use [webpack](https://webpack.github.io/) to bundle our assets. For styling, we use [postcss](https://postcss.org/) to preprocess our styles.
