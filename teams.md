@@ -14,4 +14,3 @@ You can read about our ingestion architecture and get a feel for the work we do 
 
 ## Data Science
 
-## API & Partnerships
