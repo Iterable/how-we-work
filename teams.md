@@ -14,4 +14,13 @@ You can read about our ingestion architecture and get a feel for the work we do 
 
 ## Data Science
 
+The Data Science team works on the Intelligence Suite, using machine intelligence to unlock business value and drive engagement across channels by
+
+- Elevating the level of regular tasks for marketers, freeing them from manually crafting tactics as they begin to trust the intelligent automation more
+- Modeling the dynamic preferences of their audience more accurately and provide deeper, actionable insight into the efficacy of their campaigns across channels
+- Engaging their users more meaningfully with personalized dialogue and engagement
+
+
+We use Scala, Spark, and Python ecosystem on the Databricks-AWS platform as our tech stack
+
 ## API & Partnerships
