@@ -5,6 +5,7 @@
 ## Product Framework
 
 ## Platform Engineering
+The Platform Engineering team at Iterable is comprised of 3 pillars, Infrastructure Engineering, Site Reliability Engineering and Security Engineering. Collectively they are responsible for enabling Iterable’s engineers to deliver a secure & reliable product efficiently, safely, and efficiently. 
 
 ## Data Infrastructure
 
@@ -13,4 +14,3 @@ Data Infrastructure, aka "Big Fast Data," manages data about our customers' cust
 You can read about our ingestion architecture and get a feel for the work we do in the blog post [Scaling Data Ingestion with Akka Streams and Kafka](https://engineering.iterable.com/scaling-data-ingestion-with-akka-streams-and-kafka/).
 
 ## Data Science
-
