@@ -42,7 +42,7 @@ Not feeling like commuting today? Anyone who usually works in the office can wor
 ### Becoming remote
 
 Quite a few of out employees moved out of offices' locations to become remote, with great success.
-We understand that remote work is not for everyone - some people just strive much more when they have people around them - but our liberal work from home policy really helps try that out and understand whether that is an option.
+We understand that remote work is not for everyone - some people just thrive much more when they have people around them - but our liberal work from home policy really helps try that out and understand whether that is an option.
 
 ### Hiring for remote positions
 
