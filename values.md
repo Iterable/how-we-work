@@ -34,7 +34,7 @@
 - Ensure a positive working environment, especially when things are stressful, and motivate others.
 
 ## Trust
-- Reliable source of expertise for other functions.
+- Be a reliable source of expertise for other functions.
 - Act with integrity and build trusting relationships within and across teams and functions.
 - Convey messages effectively and support decisions with data.
 - Work collaboratively and share best practices.
