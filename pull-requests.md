@@ -38,15 +38,29 @@ One exception to this rule is when you have large mechanical refactorings. Even 
 
 - Everybody is learning Scala, and some of this happens through PR's. Don't worry if it seems like you're making a lot of novice mistakes. Learning all the Scala and FP idioms is a process :)
 
-## 2. Open the PR
+## 2. Add internal documentation
+
+We want to generally improve the quality and quantity of our internal documentation. Writing
+documentation is an integral part of the development and code-writing process. Our main venues for
+internal documentation are Slab docs and Scaladoc. Scaladoc makes sense when you're describing the function of a class or method or parameter.
+Slab docs make sense when you need to explain how a service works across multiple components. Most PR's should have at least one of the following newly added or updated:
+
+- Slab doc under the Service Documentation topic
+- Explanatory Scaladocs or GQL annotations
+- README.md or similar within the repo
+- Public-facing docs (e.g. API docs, CS docs, or GQL annotations)
+- Other docs (google docs if you must, but please link to it from the code)
+
+## 3. Open the PR
 
 * A PR is opened by the author(s) of the branch using the following format:
     `[ITBL-$JIRA] Succinct description of what the branch solves`
 * The PR requester(s) fill out the template for the PR description.
 
-## 3. Before you add Reviewers: Self-Review
+## 4. Before you add Reviewers: Self-Review
 
-Put the PR in WIP. Go through the PR yourself and look over the code as if you were the reviewer. Fix obvious issues - unclear variable names, unneeded imports, running `sbt format`, etc.
+Put the PR in WIP. Go through the PR yourself and look over the code as if you were the reviewer. Fix obvious issues - unclear variable names, unneeded imports, running `sbt format`,
+missing documentation, etc.
 
 Add narrative comments (either in the PR; or better yet in the code) that walk the reviewer through the changes. Document things like the following:
 - Unchanged blocks of code that show up as diffs - this saves the reviewer time
@@ -57,7 +71,7 @@ Add narrative comments (either in the PR; or better yet in the code) that walk t
 
 Take it out of WIP only after you've done this. (You can also keep it in WIP and add reviewers while it's WIP - this is a good practice.)
 
-## 4. Add assigned reviewers
+## 5. Add assigned reviewers
 
 Add your functionality partner. There should be one other person who's familiar with both the existing code prior to your PR, and the changes that are being made in your PR, just as a matter of knowledge-sharing. This person can be your reviewer.
 
@@ -84,7 +98,7 @@ someone even though it's a Work In Progress, let them know over Slack.
 
 When you're learning Scala, which many of us are, you may expect a good number of style comments. Add reviewers while the PR is WIP to get early feedback.
 
-## 5. Reviewing code
+## 6. Reviewing code
 
 When reviewing code, follow these guidelines:
 
@@ -112,7 +126,7 @@ Sometimes when someone makes a PR comment it's unclear how much one cares about 
 For example, it would be rare for a style issue to be a P1. Most style issues should be P3. However style issues are generally easy to fix so P2 is OK.
 
 
-## 6. How to respond to PR comments
+## 7. How to respond to PR comments
 
 Personally, my bias is to try to implement every suggestion. If nothing else, it's easier to just implement simple suggestions than argue about them.
 
@@ -126,7 +140,7 @@ Besides that the common options are:
 
 If the reviewer marks something as a P2 or P1 you should definitely try to do it.
 
-## 7. Merging and deploying the PR
+## 8. Merging and deploying the PR
 
 * PR approvals are required before merge in the main repo.
 * After a reviewer approves a PR, the requester is responsible for merging it
