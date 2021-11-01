@@ -61,7 +61,7 @@ Slab docs make sense when you need to explain how a service works across multipl
 
 ## 4. Before you add Reviewers: Self-Review
 
-Put the PR in WIP. Go through the PR yourself and look over the code as if you were the reviewer. Fix obvious issues - unclear variable names, unneeded imports, running `sbt format`,
+Put the PR in Draft Status. Go through the PR yourself and look over the code as if you were the reviewer. Fix obvious issues - unclear variable names, unneeded imports, running `sbt format`,
 missing documentation, etc.
 
 Add narrative comments (either in the PR; or better yet in the code) that walk the reviewer through the changes. Document things like the following:
