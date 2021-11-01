@@ -41,15 +41,17 @@ One exception to this rule is when you have large mechanical refactorings. Even 
 ## 2. Add internal documentation
 
 We want to generally improve the quality and quantity of our internal documentation. Writing
-documentation is an integral part of the development and code-writing process. Our main venues for
-internal documentation are Slab docs and Scaladoc. Scaladoc makes sense when you're describing the function of a class or method or parameter.
-Slab docs make sense when you need to explain how a service works across multiple components. Most PR's should have at least one of the following newly added or updated:
+documentation is an integral part of the development and code-writing process. Most PR's should have at least one of the following newly added or updated:
 
 - Slab doc under the Service Documentation topic
 - Explanatory Scaladocs or GQL annotations
 - README.md or similar within the repo
 - Public-facing docs (e.g. API docs, CS docs, or GQL annotations)
 - Other docs (google docs if you must, but please link to it from the code)
+
+To determine which kind of doc makes the most sense for your change, consider the viewpoint of a new engineer who needs to learn about what you've built.
+Our main venues for internal documentation are Slab docs and Scaladoc. Scaladoc makes sense when you're describing the function of a class or method or parameter.
+Slab docs make sense when you need to explain how a service works across multiple components.
 
 ## 3. Open the PR
 
