@@ -1,6 +1,6 @@
 # Our Stack
 
-Most of our code is in Scala and most engineers use the IntelliJ IDE. We use a handful of [akka modules](https://akka.io/docs/) including HTTP, Streams, and Aplakka.
+Most of our code is in Scala and most engineers use the IntelliJ IDE. We use a handful of [akka modules](https://akka.io/docs/) including HTTP, Streams, and Alpakka.
 
 We run our production environment on AWS, with a bit of [redislabs](https://redislabs.com/), [CloudAMQP](https://www.cloudamqp.com/), and [Heroku](https://www.heroku.com/) as well. Most of our stack is deployed straight to EC2, but we're increasingly moving to [Docker](https://www.docker.com/) and [kubernetes](https://kubernetes.io/). We have a few hundred terabytes of [Elasticsearch](https://elastic.co/) running in self-managed clusters on EC2.
 
